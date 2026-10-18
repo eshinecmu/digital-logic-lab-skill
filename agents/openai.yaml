@@ -1,0 +1,6 @@
+interface:
+  display_name: "数字逻辑实验全流程"
+  short_description: "三种协作路线完成数字逻辑实验、上板交接、报告和提交材料"
+  default_prompt: "使用 $digital-logic-lab 按默认路线一处理实验；如果我用文字指定路线二或路线三，就按新的分工继续。"
+policy:
+  allow_implicit_invocation: true

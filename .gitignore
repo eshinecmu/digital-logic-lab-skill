@@ -1,0 +1,36 @@
+# Python caches
+__pycache__/
+*.py[cod]
+
+# Local workflow state and user evidence
+lab-state.json
+evidence/
+artifacts/
+output/
+tmp/
+
+# FPGA and simulator build products
+.Xil/
+*.runs/
+*.cache/
+*.sim/
+*.ip_user_files/
+*.bit
+*.wdb
+*.wlf
+*.jou
+*.log
+*.rpt
+
+# Reports, photos and submission archives belong in the lab workspace
+*.doc
+*.docx
+*.pdf
+*.jpg
+*.jpeg
+*.png
+*.zip
+
+# OS metadata
+.DS_Store
+Thumbs.db
